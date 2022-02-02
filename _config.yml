@@ -21,7 +21,7 @@ linkedin_username: jaemin-kim-developer
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile_image.jpeg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   <mark>Java & Spring</mark> 기반의 4년차 백엔드 개발자로 LG CNS에서 API/Batch 및 어드민 페이지 개발 및 운영을 해왔습니다.
   
