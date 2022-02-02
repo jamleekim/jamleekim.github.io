@@ -12,36 +12,11 @@ email: jamleekim67@gmail.com
 # website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 github_username:  jamleekim
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 linkedin_username: jaemin-kim-developer
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#  icon: fas fa-globe
-#  url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 # about_title: About Me
@@ -58,18 +33,45 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        sub_title: 상용UI소스 정적분석 도구
-        caption: 2021.05 ~ 현재
+        sub_title: 사내 내부 계약 관리 대시보드
+        caption: 2021.9 ~ 현재
         description: | 
-            - Spring, MariaDB
+            - JSP, Spring boot, JPA, MariaDB
+            - 사내 wire 계정 SSO와 연동하여 Spring Security 적용
+            - AWS EC2, S3, RDS 활용하여 Cloud에서 운영
+            - Travis CI 활용 CI 구축
+      - layout: left
+        sub_title: 상용UI소스 정적분석 도구
+        caption: 2021.5 ~ 2021.12
+        description: | 
+            - JSP, Spring, MariaDB
             - Dom Parser, Sax Parser 활용
             - UI 소스 분석 태그 내 속성 파싱, 오기입 추출
       - layout: left
-        sub_title: 사내 내부 계약 관리 대시보드
-        caption: 2021.05 ~ 현재
+        sub_title: 레드캡투어 차세대
+        caption: 2020.3 ~ 2021.4
         description: | 
-            - Spring boot, JPA, MariaDB, JSP
-            - 사내 wire 계정 SSO와 연동하여 Spring Security 적용
+            - Angular, Typescript, Spring boot, Spring batch, Oracle
+            - SMS/카카오톡 일단위 메시징 배치 프로그램 개발 및 설계
+            - Angular 기반 어드민 페이지 개발 및 운영
+      - layout: left
+        sub_title: 이베이코리아 직매입시스템 구축
+        caption: 2020.1 ~ 2020.3
+        description: | 
+            - Vue, Spring Boot, MySql
+            - MSA기반 매입 관련 API 개발
+      - layout: left
+        sub_title: KB MVNO 금융-통신 융합서비스 시스템 구축
+        caption: 2019.7 ~ 2019.12
+        description: | 
+            - Apache Camel, Spring, Oracle
+            - 스프링 기반 메인프레임, U+서버 연계 목적 인터페이스 개발
+      - layout: left
+        sub_title: U+ shop 차세대프로젝트
+        caption: 2019.3 ~ 2019.7
+        description: | 
+            - JSP, Spring boot, Oracle
+            - 상품/MMS 관련 배치 프로그램 개발 및 설계                             
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
