@@ -9,8 +9,7 @@ version: 2
 name: 김재민
 title: 자바&스프링 기반 Backend Developer
 email: slam67@naver.com
-
-# website: www.github.com/sproogen/resume-theme
+website: https://jamleekim.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -33,6 +32,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   - 복수전공 미디어학 & 소프트웨어학
 
+  - github.com/jamleekim 운영
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
