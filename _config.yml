@@ -58,13 +58,18 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 사내 청구&계약관리 대시보드
-        sub_title: Senior Network System Administrator
-        caption: 2021.09 ~ 현재
-        quote: >
-          Spring boot, JPA 기반 웹 애플리케이션
-        description: | # this will include new lines to allow paragraphs
-            사내 내부 계약 관리
+        sub_title: 상용UI소스 정적분석 도구
+        caption: 2021.05 ~ 현재
+        description: | 
+            - Spring, MariaDB
+            - Dom Parser, Sax Parser 활용
+            - UI 소스 분석 태그 내 속성 파싱, 오기입 추출
+      - layout: left
+        sub_title: 사내 내부 계약 관리 대시보드
+        caption: 2021.05 ~ 현재
+        description: | 
+            - Spring boot, JPA, MariaDB, JSP
+            - 사내 wire 계정 SSO와 연동하여 Spring Security 적용
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
