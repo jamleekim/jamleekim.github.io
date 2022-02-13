@@ -22,7 +22,7 @@ linkedin_username: jaemin-kim-developer
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  <mark>Java & Spring</mark> 기반의 4년차 백엔드 개발자로 LG CNS에서 API/Batch 및 어드민 페이지 개발 및 운영을 해왔습니다.
+  Java & Spring 기반의 4년차 백엔드 개발자로 LG CNS에서 API/Batch 및 어드민 페이지 개발 및 운영을 해왔습니다.
   
   U+, kb국민은행, ebay korea, 레드캡투어와 같이 여러 도메인을 가진 회사의 프로젝트를 경험하였으며,
 
@@ -41,43 +41,68 @@ content:
         sub_title: 사내 내부 계약 관리 대시보드
         caption: 2021.9 ~ 현재
         description: | 
+            [기술스택]
             - JSP, Spring boot, JPA, MariaDB
+
+            [진행업무]
             - 사내 wire 계정 SSO와 연동하여 Spring Security 적용
-            - AWS EC2, S3, RDS 활용하여 Cloud에서 운영
+            - AWS EC2, S3, RDS 활용하여 Public Cloud에서 운영
             - Travis CI 활용 CI 구축
+
       - layout: left
         sub_title: 상용UI소스 정적분석 도구
         caption: 2021.5 ~ 2021.12
         description: | 
+            [기술스택]
             - JSP, Spring, MariaDB
-            - Dom Parser, Sax Parser 활용
+
+            [진행업무]
+            - Dom Parser, Sax Parser 기반 개발 업무
             - UI 소스 분석 태그 내 속성 파싱, 오기입 추출
       - layout: left
         sub_title: 레드캡투어 차세대
         caption: 2020.3 ~ 2021.4
         description: | 
-            - Angular, Typescript, Spring boot, Spring batch, Redis, Oracle
+            [기술스택]
+            - Angular, Typescript, Spring boot, Redis, Oracle
+
+            [진행업무]
             - SMS/카카오톡 일단위 메시징 배치 프로그램 개발 및 설계
             - Angular 기반 어드민 페이지 개발 및 운영
-            - Redis 적용, 항공/호텔 검색속도 개선
+
+            [성과]
+            - 벤더사 통신 API에 필터 적용하여 항공/호텔 검색속도 개선
             - i18n 적용, 다국어 기능 제공
       - layout: left
         sub_title: 이베이코리아 직매입시스템 구축
         caption: 2020.1 ~ 2020.3
         description: | 
+            [기술스택]
             - Vue, Spring Boot, MySql
+
+            [진행업무]
             - MSA기반 매입 관련 API 개발
       - layout: left
         sub_title: KB MVNO 금융-통신 융합서비스 시스템 구축
         caption: 2019.7 ~ 2019.12
         description: | 
+            [기술스택]
             - Apache Camel, Spring, Oracle
+
+            [진행업무]
             - 스프링 기반 메인프레임, U+서버 연계 목적 인터페이스 개발
+
+            [성과]
+            - 다계정유저의 요청에 멀티스레드 적용하여 처리속도 개선
       - layout: left
         sub_title: U+ shop 차세대프로젝트
         caption: 2019.3 ~ 2019.7
         description: | 
+
+            [기술스택]
             - JSP, Spring boot, Oracle
+
+            [진행업무]
             - 상품/MMS 관련 배치 프로그램 개발 및 설계                             
   - title: 기술 스택
     layout: list
